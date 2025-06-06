@@ -1,10 +1,9 @@
 plugins {
     kotlin("jvm") version "2.0.20"
 }
-
-description "chapter02"
+description "chapter03"
 group = "com.apress.prospring6"
-version = "1.0-SNAPSHOT"
+version = "0.0.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -13,7 +12,6 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     implementation("org.springframework:spring-context:6.0.6")
-
 }
 
 tasks.test {
